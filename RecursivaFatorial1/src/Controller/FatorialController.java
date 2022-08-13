@@ -7,6 +7,7 @@ public class FatorialController {
 	}
 
 	public int fatorial (int valor) {
+		//Condição de parada	
 		if ( valor <= 1) {
 			return 1;
 		} else
